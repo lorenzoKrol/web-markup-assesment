@@ -88,17 +88,18 @@ a{
    padding: 0;
    margin:0;
  }
- #grid-container {
-   display:grid;
-   grid-template-columns: auto auto auto;
-   grid grid-gap: 10px;
-   margin: 0 auto;
- }
- #grid-items{
-   text-align: center;
- }
- #grid-items img{
-   margin: 10px;
-   width:350px;
-   height:350px;
- }
+.contact{
+  width: 100%;
+  height: auto;
+  background-color: #F5F5F5F5;
+  color:#444444;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blue{
+  background-color: #2699FB;
+  color:#FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
