@@ -85,3 +85,17 @@ a{
    padding: 0;
    margin:0;
  }
+ #grid-container {
+   display:grid;
+   grid-template-columns: auto auto auto;
+   grid grid-gap: 10px;
+   margin: 0 auto;
+ }
+ #grid-items{
+   text-align: center;
+ }
+ #grid-items img{
+   margin: 10px;
+   width:350px;
+   height:350px;
+ }
