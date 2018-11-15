@@ -35,10 +35,12 @@ body{
 }
 #video-version{
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  width:100%;
+  height: auto;
+  left: 0;
+  top: 0;
+  background-size: 100%;
+  background-position: 100% 100%;
 }
 
 a{
@@ -47,13 +49,6 @@ a{
    text-decoration: none;
    margin: 5px;
    clear:right;
-}
-ul{
-  display: flex;
-  justify-content: center;
-}
-li{
-  list-style-type: none;
 }
 .blue_box1{
   background-color: #2699FB;
@@ -289,13 +284,18 @@ li{
       background-color: #FFFFFF;
     }
     .label{
+      width:100%;
       padding:0;
       display: block;
       color:#FFFFFF;
-      float:left;
+      text-align: left;
       cursor: pointer;
-      vertical-align: middle;
       background-color: #AAAAAA;
+    }
+    #gray{
+      background-color: #AAAAAA;
+      width: 100%;
+      height:auto;
     }
     .drop{
       display: none;
@@ -309,8 +309,9 @@ li{
     }
     .Menu{
       background-color: #AAAAAA;
+      width:100%;
       height: auto;
-      padding: 2em;
+      padding:0;
       margin: 0;
     }
     .main_home{
@@ -347,6 +348,11 @@ li{
       margin: 10px;
       width:75%;
       height:10em;
+    }
+    .img_box{
+      width:100%;
+      height:auto;
+      margin:0;
     }
 
 }
