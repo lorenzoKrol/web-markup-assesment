@@ -9,47 +9,57 @@
     <link rel="stylesheet" type="text/css" href="css/style_index.css">
   </head>
   <body>
+    <video autoplay loop muted id="video-version">
+      <source src="movie/background.mp4">
+    </video>
     <section class="main_contact">
     <header>
      <h1 class="COMPANYLogo_style">COMPANY NAME</h1>
    </header>
-    <nav class="Menu">
-     <section class="btn">
-      <a href="index.html">Home</a>
-			<a href="product.html">Products</a>
-      <a href="https://www.blogger.com/">Blog</a>
-     </section>
+   <nav class="Menu">
+    <label class="label" for="toggle"> &#9776; </label>
+    <input type="checkbox" id="toggle"/>
+    <section class="drop">
+     <a href="index.html">Home</a>
+     <a href="product.html">Products</a>
+     <a href="https://www.blogger.com/">Blog</a>
+    </section>
     </nav>
-		<section class="blue_box">
+		<section class="blue_box1">
 			<h2>Contact</h2>
 		</section>
-<section class="contact">
-<label id="form-heading">More information</label>
-<section id="contact-form">
-<form action="nowhere.php" method="post">
-	<fieldset id="white">
-		<label>Select topic</label>
-		<select>
-			<option value="general">General inquiries</option>
-			<option value="press">Press relations</option>
-			<option value="recruitement">Recruitement</option>
-		</select>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input type="text" name="contactFormName" placeholder="Your name.."/>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input type="email" name="email" placeholder="Your email.."/>
-	</fieldset>
-	<fieldset>
-		<textarea rows="7" cols="40" name="message" placeholder="Write something.."></textarea>
-	</fieldset>
-	<input id="blue" type="submit" value="Submit"/>
-</section>
-</form>
-<footer>
- <p>&copy;2018 - Lorenzo Krol - Inholland</p>
-</footer>
-</section>
-</body>
-</html>
+    <section class="contact">
+     <label id="form-heading">More information</label>
+      <section id="contact-form">
+       <form action="nowhere.php" method="post">
+
+	      <fieldset>
+		     <label>Select topic</label>
+		     <select>
+			    <option value="general">General inquiries</option>
+			    <option value="press">Press relations</option>
+			    <option value="recruitement">Recruitement</option>
+	     	 </select>
+	     </fieldset>
+
+	     <fieldset class="contactFormFieldset">
+		    <input type="text" name="contactFormName" placeholder="Your name.."/>
+	     </fieldset>
+
+	     <fieldset class="contactFormFieldset">
+		    <input type="email" name="email" placeholder="Your email.."/>
+	     </fieldset>
+
+	     <fieldset>
+		    <textarea rows="7" cols="40" name="message" placeholder="Write something.."></textarea>
+	       </fieldset>
+
+	        <input id="blue" type="submit" value="Submit"/>
+         </section>
+        </form>
+        <footer>
+         <p>&copy;2018 - Lorenzo Krol - Inholland</p>
+          </footer>
+         </section>
+        </body>
+       </html>
