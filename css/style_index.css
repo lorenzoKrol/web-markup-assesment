@@ -354,12 +354,18 @@ a{
       height:auto;
       margin:0;
     }
+    #design{
+      padding-right: 40%;
+    }
 
 }
 /*Tablet*/
 @media only screen and (min-width: 360px) and (max-width: 960px){
   .blue_box2{
     display: none;
+  }
+  #design{
+    padding-right: 75%;
   }
 
   .image2{
