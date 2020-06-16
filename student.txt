@@ -1,3 +1,0 @@
-student name : Lorenzo Krol
-student number : 629808
-student class : 1ITB
